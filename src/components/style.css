@@ -1,0 +1,221 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#title {
+  margin: 1em auto;
+  text-align: center;
+}
+.BmiForm {
+  width: 1000px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Inputwrapper {
+  padding: 40px;
+}
+
+.Formfield {
+  width: 100%;
+  padding: 10px 7px;
+  margin: 10px 0;
+}
+
+input[type='number'] {
+  border-radius: 3px;
+}
+
+.BMIContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.BMIContainer div {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.BMIContainer .yellow,
+.TextWrapper .yellow {
+  background-color: yellow;
+}
+
+.BMIContainer .cyan,
+.TextWrapper .yellow {
+  background-color: rgb(0, 255, 255);
+}
+
+.BMIContainer .green,
+.TextWrapper .green {
+  background-color: rgb(0, 128, 0);
+}
+
+.BMIContainer .red,
+.TextWrapper .red {
+  background-color: red;
+}
+
+.BMIContainer span {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+body {
+  width: 100%;
+  /* background: linear-gradient(to right, #03d193, #058ad8) */
+}
+
+.SubmitContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SubmitButton {
+  border: #282828 solid 1px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #0072b5, #00a170);
+  width: 140px;
+  height: 40px;
+  color: #ffff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.SubmitButton:hover {
+  transition: 100ms ease-in;
+  box-shadow: 15px 17px 8px -10px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 15px 17px 8px -10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 15px 17px 8px -10px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.SubmitButton:active {
+  box-shadow: none;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+a {
+  font-weight: 600;
+}
+
+a:hover {
+  color: rgb(30, 30, 187);
+  cursor: pointer;
+  border-bottom: rgb(30, 30, 187) 2px solid;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.Container p {
+  font-weight: 600;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  margin: 10px 10px 10px 0;
+}
+
+.TextWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 1000px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.TextContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #1257ce;
+  color: #ffff;
+}
+
+.TextContainer p {
+  margin: 5px;
+  padding: 4px 0;
+}
+
+.TextContainer .blue {
+  color: #00b5b5;
+}
+
+.TextContainer ul {
+  margin-left: -35px;
+}
+
+.TextContainer ul li {
+  color: #282828;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid #282828;
+  border-radius: 4px;
+  list-style: none;
+}
+
+.Result {
+  border-radius: 5px;
+  color: #282828;
+  padding: 3px;
+}
+
+.ResultContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 23px;
+}
+
+.AvgWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 360px;
+}
+
+.AvgForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
