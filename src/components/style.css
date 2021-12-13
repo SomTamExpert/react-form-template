@@ -28,7 +28,7 @@ html {
   margin: 10px 0;
 }
 
-input[type='number'] {
+input[type="number"] {
   border-radius: 3px;
 }
 
@@ -141,8 +141,8 @@ h2 {
   font-weight: 600;
 }
 
-input[type='radio'],
-input[type='checkbox'] {
+input[type="radio"],
+input[type="checkbox"] {
   margin: 10px 10px 10px 0;
 }
 
